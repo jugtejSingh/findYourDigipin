@@ -52,7 +52,6 @@
     placeAutocomplete.setAttribute('placeholder', 'Enter any Address');
 
     input.appendChild(placeAutocomplete);
-    console.log(input)
 
     //@ts-ignore
     placeAutocomplete.addEventListener('gmp-select', async ({placePrediction}) => {
@@ -83,8 +82,8 @@
   <div bind:this={mapContainer} style="height: 99vh; width: 100%;"></div>
   <div class={showText ? "Text2" : "Text" }>{digipinVal}</div>
   <div class="DontShow">
-    <h1>Welcome to Get Digipin</h1>
-    <p>Your quick and easy resource to find any address and its digipin within seconds</p>
+    <h1 aria-hidden="true">Welcome to Get Digipin</h1>
+    <p aria-hidden="true">Your quick and easy resource to find any address and its digipin within seconds</p>
   </div>
 </div>
 
