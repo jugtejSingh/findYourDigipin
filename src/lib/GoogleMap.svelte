@@ -141,22 +141,8 @@
     }
   }
   :global(gmp-place-autocomplete){
-  background: rgba(0,0,0,0.65);
+  background: white;
   }
-  :global(gmp-place-autocomplete::part(input)){
-  background: rgba(0,0,0,0.65);
-  }
-  :global(gmp-place-autocomplete::part(input)::placeholder) {
-  color: rgba(255,255,255,0.7) !important;
-  }
-  :global(gmp-place-autocomplete::part(dropdown)) {
-    background: rgba(0,0,0,0.9) !important;}
-  :global(gmp-place-autocomplete::part(option)) {
-    background: rgba(0,0,0,0.9) !important;}
-  :global(gmp-place-autocomplete::part(select)) {
-    background: rgba(0,0,0,0.9) !important;}
-  :global(gmp-place-autocomplete input) {
-    background: rgba(0,0,0,0.9) !important;}
 
   .visually-hidden{
     clip-path: inset(50%) !important;
