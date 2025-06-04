@@ -50,6 +50,7 @@
       includedRegionCodes: ['in'],
     });
     placeAutocomplete.setAttribute('placeholder', 'Enter any Address');
+    placeAutocomplete
 
     input.appendChild(placeAutocomplete);
 
@@ -81,9 +82,9 @@
   <div bind:this={input} class="Input"> </div>
   <div bind:this={mapContainer} style="height: 99vh; width: 100%;"></div>
   <div class={showText ? "Text2" : "Text" }>{digipinVal}</div>
-  <div class="DontShow">
-    <h1 aria-hidden="true">Welcome to Get Digipin</h1>
-    <p aria-hidden="true">Your quick and easy resource to find any address and its digipin within seconds</p>
+  <div class="visually-hidden">
+    <h1>Welcome to Get Digipin</h1>
+    <p>Your quick and easy resource to find any address and its digipin within seconds</p>
   </div>
 </div>
 
@@ -100,7 +101,6 @@
   .Input::placeholder {
     color: rgb(255,255,255);
   }
-
   .Text {
     display: none;
     left: 46%;
@@ -131,14 +131,6 @@
       transform: translateY(-5rem);
     }
   }
-  .DontShow{
-    width: 1px;
-    height: 1px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-  }
   @media screen and (max-width: 900px){
     .Text2{
       left: 39%;
@@ -148,5 +140,32 @@
       margin-left: 10%;
     }
   }
+  :global(gmp-place-autocomplete){
+  background: rgba(0,0,0,0.65);
+  }
+  :global(gmp-place-autocomplete::part(input)){
+  background: rgba(0,0,0,0.65);
+  }
+  :global(gmp-place-autocomplete::part(input)::placeholder) {
+  color: rgba(255,255,255,0.7) !important;
+  }
+  :global(gmp-place-autocomplete::part(dropdown)) {
+    background: rgba(0,0,0,0.9) !important;}
+  :global(gmp-place-autocomplete::part(option)) {
+    background: rgba(0,0,0,0.9) !important;}
+  :global(gmp-place-autocomplete::part(select)) {
+    background: rgba(0,0,0,0.9) !important;}
+  :global(gmp-place-autocomplete input) {
+    background: rgba(0,0,0,0.9) !important;}
 
+  .visually-hidden{
+    clip-path: inset(50%) !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+    user-select: none !important;
+  }
 </style>
