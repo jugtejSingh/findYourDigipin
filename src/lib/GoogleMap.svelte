@@ -80,7 +80,7 @@
 </script>
 <div style="position: relative">
   <div bind:this={input} class="Input"> </div>
-  <div bind:this={mapContainer} style="height: 99vh; width: 100%;"></div>
+  <div bind:this={mapContainer} style="height: 99dvh; width: 100%;"></div>
   <div class={showText ? "Text2" : "Text" }>{digipinVal}</div>
   <div class="visually-hidden">
     <h1>Welcome to Get Digipin</h1>
