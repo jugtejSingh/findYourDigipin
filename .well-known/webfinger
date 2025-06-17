@@ -1,18 +1,18 @@
 {
     "subject": "acct:blog@getdigip.in",
     "aliases": [
-      "https://artphanage.com/"
+      "https://getdigip.in/blog"
     ],
     "links": [
       {
         "rel": "self",
         "type": "application/activity+json",
-        "href": "https://artphanage.com/"
+        "href": "https://getdigip.in/blog"
       },
       {
         "rel":"http://webfinger.net/rel/profile-page",
         "type":"text/html",
-        "href":"https://artphanage.com/"
+        "href":"https://getdigip.in/blog"
       }
     ]
 }
