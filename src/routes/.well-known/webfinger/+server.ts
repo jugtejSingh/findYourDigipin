@@ -2,20 +2,20 @@ import {json} from "@sveltejs/kit";
 
 export function GET() {
     return json({
-        "subject": "acct:blog@getdigip.in",
+        "subject": "acct:jugtej@getdigip.in",
         "aliases": [
-        "https://getdigip.in/blog"
+        "https://getdigip.in/jugtej"
     ],
         "links": [
         {
             "rel": "self",
             "type": "application/activity+json",
-            "href": "https://getdigip.in/blog"
+            "href": "https://getdigip.in/jugtej"
         },
         {
             "rel":"http://webfinger.net/rel/profile-page",
             "type":"text/html",
-            "href":"https://getdigip.in/blog"
+            "href":"https://getdigip.in/jugtej"
         }
     ]
     })
