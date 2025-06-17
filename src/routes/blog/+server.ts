@@ -12,7 +12,7 @@ export function GET() {
         "preferredUsername": "blog",
         "name": "Maho Pacheco - Blog",
         "summary": "Bite-sized pieces of Software Engineering from a Garbage Code Connoisseur",
-        "url": "https://maho.dev/",
+        "url": "https://getdigip.in/blog",
         "discoverable": true,
         "memorial": false,
         "icon": {
