@@ -3,9 +3,7 @@ import {json} from "@sveltejs/kit";
 export function GET() {
     return json(
     {
-        "@context": [
-        "https://www.w3.org/ns/activitystreams",
-    ],
+        "@context": "https://www.w3.org/ns/activitystreams",
         "id": "https://getdigip.in/jugtej",
         "type": "Person",
         "following": "https://mastodon.jgarr.net/following",
