@@ -33,7 +33,15 @@ export function GET() {
             "publicKey": {
                 "id": "https://getdigip.in/jugtej#main-key",
                 "owner": "https://getdigip.in/jugtej",
-                "publicKeyPem": "-----BEGIN PUBLIC KEY-----\n...your key here...\n-----END PUBLIC KEY-----"
+                "publicKeyPem": "-----BEGIN PUBLIC KEY-----\n" +
+                    "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp6QUSxsV5bNBwlaAt1NK\n" +
+                    "j65hrMOrpZz4/ANDKBPMwka3kZaYXfkaVSoz9YeA/ipjEO/jdkn09Eg2uiCU0/7B\n" +
+                    "+S91uUbXn46iqD0stgsHqmkUSLx+ZeBA0pQGx6mJZaCF1GfxPcR3OpMfTb9psqxA\n" +
+                    "otkeCrdkKO47o0xWq9aqAY24P8qpgwUOslwd+YIrWIgS1/WIdnSjzOYgURmVY+sn\n" +
+                    "mOkJek8UKBOLJtRXcjQANIM/CayuYW7937/lBLeZnIOUKF0otlLZqBB5I3+gzQAs\n" +
+                    "VHG3wUK45oaQQ+YaP5F1cBWspqzUr2X2wuaNIQpLU18Oifg05fOPHYgDt+3AHw1R\n" +
+                    "aQIDAQAB\n" +
+                    "-----END PUBLIC KEY-----\n"
             }
         })
 }
