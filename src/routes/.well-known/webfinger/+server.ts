@@ -1,6 +1,6 @@
 import {json} from "@sveltejs/kit";
 
-export function GET({ url }: { url: string }) {
+export function GET() {
     return json({
         "subject": "acct:blog@getdigip.in",
         "aliases": [
