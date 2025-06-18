@@ -38,7 +38,13 @@ export function GET() {
                 "VHG3wUK45oaQQ+YaP5F1cBWspqzUr2X2wuaNIQpLU18Oifg05fOPHYgDt+3AHw1R\n" +
                 "aQIDAQAB\n" +
                 "-----END PUBLIC KEY-----\n"
-        }
+        },
+        "attachment": [
+            {
+                "type": "PropertyValue",
+                "name": "Blog",
+                "value": "<a href=\"https://getdigip.in/jugtej\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">getdigip.in/jugtej</span><span class=\"invisible\"></span></a>"
+            },]
     }
 
     const response = new Response(JSON.stringify(content), {headers: {'Content-Type': 'application/activity+json'}});
