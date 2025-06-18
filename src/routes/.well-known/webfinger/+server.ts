@@ -15,7 +15,7 @@ export function GET() {
         {
             "rel":"http://webfinger.net/rel/profile-page",
             "type":"text/html",
-            "href":"https://getdigip.in/jugtej"
+            "href":"https://getdigip.in/jugtej/actor"
         }
     ]
     })
