@@ -10,12 +10,12 @@ export function GET() {
         {
             "rel": "self",
             "type": "application/activity+json",
-            "href": "https://getdigip.in/jugtej"
+            "href": "https://getdigip.in/jugtej/actor"
         },
         {
             "rel":"http://webfinger.net/rel/profile-page",
             "type":"text/html",
-            "href":"https://getdigip.in/"
+            "href":"https://getdigip.in/jugtej"
         }
     ]
     })

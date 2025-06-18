@@ -3,12 +3,12 @@ import {json} from "@sveltejs/kit";
 export function GET() {
     const content = {
         "@context": "https://www.w3.org/ns/activitystreams",
-        "id": "https://getdigip.in/jugtej",
+        "id": "https://getdigip.in/jugtej/actor",
         "type": "Person",
         "preferredUsername": "jugtej",
         "name": "Jugtej Singh",
         "summary": "Welcome to my website.",
-        "url": "https://getdigip.in/",
+        "url": "https://getdigip.in/jugtej",
         "published": "2000-01-01T00:00:00Z",
         "manuallyApprovesFollowers": true,
         "discoverable": true,
