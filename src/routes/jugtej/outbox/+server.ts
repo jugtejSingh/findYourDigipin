@@ -23,9 +23,9 @@ export function GET() {
                 "tag": [
                     {
                         "type": "Mention",
-                        "href": "https://hachyderm.io/users/mapache",
-                        "name": "@mapache@hachyderm.io"
-                    },
+                        "href": "https://getdigip.in/jugtej",
+                        "name": "@jugtej@getdigip.in"
+                    }
                 ]
             }
         ]
