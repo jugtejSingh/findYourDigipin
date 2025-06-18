@@ -6,7 +6,7 @@ export function GET() {
         "id": "https://getdigip.in/jugtej",
         "type": "Person",
         "preferredUsername": "jugtej",
-        "name": "Jugtej Singh2001",
+        "name": "Jugtej SinghTest",
         "summary": "Welcome to my website.",
         "url": "https://getdigip.in/",
         "published": "2000-01-01T00:00:00Z",
@@ -38,13 +38,7 @@ export function GET() {
                 "VHG3wUK45oaQQ+YaP5F1cBWspqzUr2X2wuaNIQpLU18Oifg05fOPHYgDt+3AHw1R\n" +
                 "aQIDAQAB\n" +
                 "-----END PUBLIC KEY-----\n"
-        },
-        "attachment": [
-            {
-                "type": "PropertyValue",
-                "name": "Blog",
-                "value": "<a href=\"https://getdigip.in/jugtej\"><span>Hello</span></a>"
-            },]
+        }
     }
 
     const response = new Response(JSON.stringify(content), {headers: {'Content-Type': 'application/activity+json'}});
