@@ -36,7 +36,7 @@ export function GET() {
         ]
     }
 
-    const response = new Response(JSON.stringify(content), {headers: {'Content-Type': 'application/activity+json'}});
+    const response = new Response(JSON.stringify(content));
 
     return response;
 }
