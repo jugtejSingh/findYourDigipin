@@ -22,21 +22,16 @@ export function GET() {
                 "published": "2024-02-18T21:06:38-08:00",
                 "tag": [
                     {
-                        "Type": "Mention",
-                        "Href": "https://hachyderm.io/users/mapache",
-                        "Name": "@mapache@hachyderm.io"
+                        "type": "Mention",
+                        "href": "https://hachyderm.io/users/mapache",
+                        "name": "@mapache@hachyderm.io"
                     },
-                    {
-                        "Type": "Hashtag",
-                        "Href": "https://maho.dev/tags/ai",
-                        "Name": "#ai"
-                    },
-                ],
+                ]
             }
         ]
     }
 
-    const response = new Response(JSON.stringify(content));
+    const response = new Response(JSON.stringify(content), {headers: {'Content-Type': 'application/activity+json'}});
 
     return response;
 }
