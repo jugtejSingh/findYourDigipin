@@ -6,7 +6,7 @@ export function GET() {
         "id": "https://getdigip.in/jugtej/actor",
         "type": "Person",
         "preferredUsername": "jugtej",
-        "name": "Jugtej Singh",
+        "name": "Jugtej Singh2001",
         "summary": "Welcome to my website.",
         "url": "https://getdigip.in/jugtej",
         "published": "2000-01-01T00:00:00Z",
