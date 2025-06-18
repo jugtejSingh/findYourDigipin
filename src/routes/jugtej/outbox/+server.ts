@@ -10,10 +10,10 @@ export function GET() {
         "orderedItems": [
             {
                 "@context": "https://www.w3.org/ns/activitystreams",
-                "id": "https://getdigip.in/jugtej/blogs/blog1",
+                "id": "https://getdigip.in/jugtej/blogs/blog1/jsonFile",
                 "type": "Note",
                 "content": "The Gendered Lens of AI: Unpacking Bias in Language  ... html content",
-                "url": "https://maho.dev/2024/02/the-gendered-lens-of-ai-unpacking-bias-in-language-models/",
+                "url": "https://getdigip.in/jugtej/blogs/blog1",
                 "attributedTo": "https://getdigip.in/jugtej/actor",
                 "to": [
                     "https://www.w3.org/ns/activitystreams#Public"
