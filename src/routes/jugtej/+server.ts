@@ -8,7 +8,7 @@ export function GET() {
         "preferredUsername": "jugtej",
         "name": "Jugtej Singh2001",
         "summary": "Welcome to my website.",
-        "url": "https://getdigip.in/jugtej",
+        "url": "https://getdigip.in/",
         "published": "2000-01-01T00:00:00Z",
         "manuallyApprovesFollowers": true,
         "discoverable": true,
