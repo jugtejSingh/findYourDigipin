@@ -43,7 +43,7 @@ export function GET() {
             {
                 "type": "PropertyValue",
                 "name": "Blog",
-                "value": "<a href=\"https://getdigip.in/jugtej\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">getdigip.in/jugtej</span><span class=\"invisible\"></span></a>"
+                "value": "<a href=\"https://getdigip.in/jugtej\"><span>Hello</span></a>"
             },]
     }
 
