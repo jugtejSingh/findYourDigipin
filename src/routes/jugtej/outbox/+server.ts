@@ -31,7 +31,6 @@ export function GET() {
                         "Href": "https://maho.dev/tags/ai",
                         "Name": "#ai"
                     },
-                    ...
                 ],
                 "replies": {
                     "id": "https://maho.dev/socialweb/replies/1dff22b5faf3fbebc5aaf2bb5b5dbe2c",
