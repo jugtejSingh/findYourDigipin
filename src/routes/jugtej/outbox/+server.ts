@@ -10,7 +10,7 @@ export function GET() {
         "orderedItems" : [
             {
                 "@context": "https://www.w3.org/ns/activitystreams",
-                "id": "https://getdigip.in/jugtej/blogs/blog/jsonFile",
+                "id": "https://getdigip.in/blog1.json",
                 "type": "Note",
                 "content": "The Gendered Lens of AI: Unpacking Bias in Language  ... html content",
                 "url": "https://getdigip.in/jugtej/blogs/blog1",
