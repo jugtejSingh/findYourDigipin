@@ -11,7 +11,7 @@ export function GET() {
             "https://www.w3.org/ns/activitystreams#Public"
         ],
         "cc": [
-            "https://getdigip.in/jugtej/followers"
+            "https://mastodon.social/users/jugtej"
         ],
         "object": "https://getdigip.in/jugtej/blogs/blog1/jsonFile"
     };

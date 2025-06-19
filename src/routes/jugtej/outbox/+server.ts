@@ -5,7 +5,7 @@ export function GET() {
         "@context": "https://www.w3.org/ns/activitystreams",
         "id": "https://getdigip.in/jugtej/outbox",
         "type": "OrderedCollection",
-        "totalItems": 3,
+        "totalItems": 1,
         "orderedItems": [
             {
                 "id": "https://getdigip.in/jugtej/activities/activity1",
@@ -15,7 +15,7 @@ export function GET() {
                     "https://www.w3.org/ns/activitystreams#Public"
                 ],
                 "cc": [
-                    "https://getdigip.in/jugtej/followers"
+                    "https://mastodon.social/users/jugtej"
                 ],
                 "object": "https://getdigip.in/jugtej/blogs/blog1/jsonFile"
             }
