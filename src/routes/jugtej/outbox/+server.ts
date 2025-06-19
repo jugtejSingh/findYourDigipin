@@ -5,27 +5,26 @@ export function GET() {
         "@context": "https://www.w3.org/ns/activitystreams",
         "id": "https://getdigip.in/jugtej/outbox",
         "type": "OrderedCollection",
-        "totalItems": 1,
+        "totalItems": 3,
         "orderedItems": [
             {
                 "id": "https://getdigip.in/jugtej/activities/activity1",
                 "type": "Create",
-                "actor": "https://getdigip.in/jugtej/actor",  // Fixed: added missing //
-                "published": "2024-06-19T15:00:00Z",
+                "actor": "https://getdigip.in/jugtej/actor",
                 "to": [
                     "https://www.w3.org/ns/activitystreams#Public"
                 ],
                 "cc": [
-                    "https://getdigip.in/jugtej/followers"  // Added followers for better federation
+                    "https://getdigip.in/jugtej/followers"
                 ],
-                "object": "https://getdigip.in/jugtej/blogs/blog1/jsonFile"  // Reference to separate post
+                "object": "https://getdigip.in/jugtej/blogs/blog1/jsonFile"
             }
         ]
     };
 
     return new Response(JSON.stringify(content), {
         headers: {
-            'Content-Type': 'application/activity+json'  // Changed to proper ActivityPub content type
+            'Content-Type': 'application/activity+json'
         }
     });
 }
