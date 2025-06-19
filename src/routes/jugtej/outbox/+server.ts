@@ -33,7 +33,7 @@ export function GET() {
                 //     },
                 // ],
                 "type": "Create",
-                "actor": "https://example.com/users/you",
+                "actor": "https://getdigip.in/jugtej/actor",
                 "object": {
                     "type": "Note",
                     "content": "This is my new post"
