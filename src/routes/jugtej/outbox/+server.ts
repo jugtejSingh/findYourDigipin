@@ -10,17 +10,38 @@ export function GET() {
         "orderedItems" : [
             {
                 "@context": "https://www.w3.org/ns/activitystreams",
-                "id": "https://mastodon.example/users/bob#votes/827164/activity",
-                "to": "https://mastodon.example/users/alice",
-                "actor": "https://mastodon.example/users/bob",
-                "type": "Create",
-                "object": {
-                    "id": "https://getdigip.in/jugtej/blogs/blog1",
-                    "type": "Note",
-                    "name": "banana",
-                    "attributedTo": "https://mastodon.example/users/bob",
-                    "to": "https://mastodon.example/users/alice",
-                    "inReplyTo": "https://mastodon.example/users/alice/statuses/1009947848598745"
+                "id": "https://maho.dev/socialweb/notes/1dff22b5faf3fbebc5aaf2bb5b5dbe2c",
+                "type": "Note",
+                "content": "The Gendered Lens of AI: Unpacking Bias in Language  ... html content",
+                "url": "https://maho.dev/2024/02/the-gendered-lens-of-ai-unpacking-bias-in-language-models/",
+                "attributedTo": "https://maho.dev/@blog",
+                "to": [
+                    "https://www.w3.org/ns/activitystreams#Public"
+                ],
+                "cc": [],
+                "published": "2024-02-18T21:06:38-08:00",
+                "tag": [
+                    {
+                        "Type": "Mention",
+                        "Href": "https://hachyderm.io/users/mapache",
+                        "Name": "@mapache@hachyderm.io"
+                    },
+                    {
+                        "Type": "Hashtag",
+                        "Href": "https://maho.dev/tags/ai",
+                        "Name": "#ai"
+                    },
+                    ...
+                ],
+                "replies": {
+                    "id": "https://maho.dev/socialweb/replies/1dff22b5faf3fbebc5aaf2bb5b5dbe2c",
+                    "type": "Collection",
+                    "first": {
+                        "type": "CollectionPage",
+                        "next": "https://maho.dev/socialweb/replies/1dff22b5faf3fbebc5aaf2bb5b5dbe2c?page=true",
+                        "partOf": "https://maho.dev/socialweb/replies/1dff22b5faf3fbebc5aaf2bb5b5dbe2c",
+                        "items": []
+                    }
                 }
             }
         ]
