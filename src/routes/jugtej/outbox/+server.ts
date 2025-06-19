@@ -32,10 +32,12 @@ export function GET() {
                 //         "Name": "#ai"
                 //     },
                 // ],
-                "@context": "https://www.w3.org/ns/activitystreams",
-                "type": "Note",
-                "name": "A Word of Warning",
-                "content": "Looks like it is going to rain today. Bring an umbrella!"
+                "type": "Create",
+                "actor": "https://example.com/users/you",
+                "object": {
+                    "type": "Note",
+                    "content": "This is my new post"
+                }
             }
         ]
     }
