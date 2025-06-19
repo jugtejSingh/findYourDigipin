@@ -6,7 +6,7 @@ export function GET() {
         "id": "https://getdigip.in/jugtej/outbox",
         "type": "OrderedCollection",
         "summary": "Just my outbox",
-        "totalItems": 24,
+        "totalItems": 1,
         "orderedItems" : [
             {
                 // "@context": "https://www.w3.org/ns/activitystreams",
