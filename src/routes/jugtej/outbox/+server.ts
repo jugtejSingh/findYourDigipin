@@ -40,7 +40,7 @@ export function GET() {
         ]
     }
 
-    const response = new Response(JSON.stringify(content));
+    const response = new Response(JSON.stringify(content), {headers: {'Content-Type': 'application/json'}});
 
     return response;
 }
