@@ -5,7 +5,7 @@ export function GET() {
         "@context": "https://www.w3.org/ns/activitystreams",
         "id": "https://getdigip.in/jugtej/outbox",
         "type": "OrderedCollection",
-        "totalItems": 1,
+        "totalItems": 0,
         "orderedItems": [
             {
                 "id": "https://getdigip.in/jugtej/activities/activity1",
