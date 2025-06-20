@@ -11,18 +11,10 @@ export function GET() {
                 "id": "https://getdigip.in/jugtej/activities/activity1",
                 "type": "Create",
                 "actor": "https://getdigip.in/jugtej/actor",
-                "published": "2024-01-01T00:00:00Z",
+                "published": "2024-06-19T15:00:00Z",
                 "to": ["https://www.w3.org/ns/activitystreams#Public"],
                 "cc": ["https://getdigip.in/jugtej/followers"],
-                "object": {
-                    "id": "https://getdigip.in/jugtej/blogs/blog1",
-                    "type": "Note",
-                    "attributedTo": "https://getdigip.in/jugtej/actor",
-                    "content": "Your post content here",
-                    "published": "2024-01-01T00:00:00Z",
-                    "to": ["https://www.w3.org/ns/activitystreams#Public"],
-                    "cc": ["https://getdigip.in/jugtej/followers"]
-                }
+                "object": "https://getdigip.in/jugtej/blogs/blog1/jsonFile"
             }
         ]
     }
